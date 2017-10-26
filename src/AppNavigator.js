@@ -13,7 +13,7 @@ const RouterWithRedux = connect()(Router);
 
 const AppNavigator = () => (
   <RouterWithRedux>
-    <Scene>
+    <Scene hideNavBar>
       <Scene
         key="first"
         component={First}
